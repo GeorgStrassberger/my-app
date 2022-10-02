@@ -18,8 +18,22 @@
         padding-left: 32px;
         max-width: 600px;
         font-size: 48px;
-        border-left: 8px solid red;
-        border-bottom: 8px solid blue;
+        border-left: 8px solid #d85050;
+    }
+}
+
+.fadeIn {
+    animation: fadeInAnimation 1.2s ease-in-out;
+}
+
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
 }
 

@@ -3,7 +3,7 @@
 </div>
 
 <div class="diashow-container diashow-overlay">
-    <p>
-        Bring enineering to the next level
+    <p *ngIf="showImage" class="fadeIn">
+        {{headlines[currentImage]}}
     </p>
 </div>
