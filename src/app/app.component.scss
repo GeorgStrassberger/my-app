@@ -1,13 +1,33 @@
 .diashow-container {
-    height: 100vw;
+    height: 100vh;
+    width: 100vw;
     max-width: 100%;
     overflow: hidden;
+}
+
+.diashow-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: auto;
+    p {
+        color: azure;
+        padding-left: 32px;
+        max-width: 600px;
+        font-size: 48px;
+        border-left: 8px solid red;
+        border-bottom: 8px solid blue;
+    }
 }
 
 .diashow {
     height: 100vh;
     max-width: 100%;
     object-fit: cover;
+    object-position: center center;
     animation: zoomIn 8s ease;
 }
 
