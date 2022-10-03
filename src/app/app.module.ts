@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { DiashowComponent } from './diashow/diashow.component';
 import { MenuComponent } from './menu/menu.component';
 import { ImpressumComponent } from './impressum/impressum.component';
+import { DatenschutzComponent } from './datenschutz/datenschutz.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DiashowComponent,
     MenuComponent,
-    ImpressumComponent
+    ImpressumComponent,
+    DatenschutzComponent
   ],
   imports: [
     BrowserModule,
