@@ -13,8 +13,8 @@ export class DiashowComponent implements OnInit {
     this.updateImage();
   }
 
-  images = ['1.png','2.jpg','3.jpg'];
-  headlines = ['Bring enineering to the next level','Born to Code','FrontEnd-Developer'];
+  images = ['33.jpg','html-css.png','11.jpg'];
+  headlines = ['Bring enineering to the next level','Born to Code','Front End Developer'];
   currentImage = 0;
   showImage = true;
 

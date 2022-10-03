@@ -3,6 +3,9 @@
     width: 100vw;
     max-width: 100%;
     overflow: hidden;
+    img {
+        width: 100%;
+    }
 }
 
 .diashow-overlay {
@@ -16,8 +19,8 @@
     p {
         color: azure;
         padding-left: 32px;
-        max-width: 600px;
-        font-size: 48px;
+        max-width: 800px;
+        font-size: 80px;
         border-left: 8px solid #d85050;
     }
 }
@@ -41,7 +44,6 @@
     height: 100vh;
     max-width: 100%;
     object-fit: cover;
-    object-position: center center;
     animation: zoomIn 8s ease;
 }
 
