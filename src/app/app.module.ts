@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DiashowComponent } from './diashow/diashow.component';
 import { MenuComponent } from './menu/menu.component';
+import { ImpressumComponent } from './impressum/impressum.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DiashowComponent,
-    MenuComponent
+    MenuComponent,
+    ImpressumComponent
   ],
   imports: [
     BrowserModule,
