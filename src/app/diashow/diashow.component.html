@@ -1,0 +1,9 @@
+<div class="diashow-container">
+    <img *ngIf="showImage" class="diashow" src="/assets/img/{{images[currentImage]}}">
+</div>
+
+<div class="diashow-container diashow-overlay">
+    <p *ngIf="showImage" class="fadeIn">
+        {{headlines[currentImage]}}
+    </p>
+</div>
