@@ -4,11 +4,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DiashowComponent } from './diashow/diashow.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DiashowComponent
+    DiashowComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
